@@ -254,12 +254,3 @@ body .bee {
     display: block;
   }
 }
-.customflex {
-  display: flex;
-  justify-content: space-between;
-}
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
