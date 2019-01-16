@@ -143,6 +143,18 @@ body {
     flex-direction: column;
   }
 }
+html body,
+body body {
+  border: 0.25rem dashed blue;
+  padding: 10px;
+  height: auto;
+}
+@media (max-width: 500px) {
+  html body,
+  body body {
+    border: none;
+  }
+}
 html h1,
 body h1,
 html h2,
@@ -152,6 +164,14 @@ body h2 {
   align-items: center;
   font-family: 'Libre Barcode 128 Text', cursive;
   font-size: 5rem;
+}
+html h1,
+body h1 {
+  color: #b7950b;
+}
+html h2,
+body h2 {
+  color: #95a5a6;
 }
 html nav,
 body nav {
@@ -180,6 +200,10 @@ body h3 {
   border-bottom: 0.25rem dashed purple;
   padding-bottom: 21px;
   margin-bottom: 21px;
+  color: #641e16;
+  font-style: oblique;
+  font-weight: bold;
+  padding-top: 15px;
 }
 html p,
 body p {
@@ -218,6 +242,17 @@ body .history {
 html .contact,
 body .contact {
   padding-left: 5px;
+}
+html .bee,
+body .bee {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  html .bee,
+  body .bee {
+    display: block;
+  }
 }
 .customflex {
   display: flex;
