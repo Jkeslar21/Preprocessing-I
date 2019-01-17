@@ -55,18 +55,19 @@ table {
 
 html, body {
 	height: 100%;
-	max-width: 880px;
-	margin: 25px;
-	
+	}	
 	@media ( max-width: 500px){
 		display: flex;
 		flex-direction: column;
 
 	}
-	body{
+	.container{
 		border: .25rem dashed blue;
 		padding: 10px;
 		height: auto;
+		margin: 0 auto;
+		max-width: 1024px;
+		width: 100%;
 		@media ( max-width: 500px){
 			border: none;
 		}
@@ -143,7 +144,6 @@ html, body {
 		}
 	}
 	
-}
 
 //Variables
 @fontstackp: 'ZCOOL KuaiLe', cursive;
