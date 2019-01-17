@@ -1,1 +1,256 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  max-width: 880px;
+  margin: 25px;
+}
+@media (max-width: 500px) {
+  html,
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+html body,
+body body {
+  border: 0.25rem dashed blue;
+  padding: 10px;
+  height: auto;
+}
+@media (max-width: 500px) {
+  html body,
+  body body {
+    border: none;
+  }
+}
+html h1,
+body h1,
+html h2,
+body h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 5rem;
+}
+html h1,
+body h1 {
+  color: #b7950b;
+}
+html h2,
+body h2 {
+  color: #95a5a6;
+}
+html nav,
+body nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+@media (max-width: 500px) {
+  html nav,
+  body nav {
+    justify-content: space-between;
+  }
+}
+html nav a,
+body nav a {
+  color: orange;
+  font-size: 1.5rem;
+}
+html nav a:hover,
+body nav a:hover {
+  color: aqua;
+}
+html h3,
+body h3 {
+  font-size: 2.5rem;
+  border-bottom: 0.25rem dashed purple;
+  padding-bottom: 21px;
+  margin-bottom: 21px;
+  color: #641e16;
+  font-style: oblique;
+  font-weight: bold;
+  padding-top: 15px;
+}
+html p,
+body p {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+html ul,
+body ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+html .top,
+body .top {
+  margin: 21px 0;
+}
+html .bottom,
+body .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 21px 0;
+}
+@media (max-width: 500px) {
+  html .bottom,
+  body .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+}
+html .history,
+body .history {
+  padding-right: 5px;
+}
+html .contact,
+body .contact {
+  padding-left: 5px;
+}
+html .bee,
+body .bee {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  html .bee,
+  body .bee {
+    display: block;
+  }
+}
